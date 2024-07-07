@@ -1,0 +1,17 @@
+.box{
+    
+    margin: 100px auto;
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    transition-duration: 2s; 
+    transition-property: background-color, border-radius,transform; 
+    transition-delay: 0.5s; 
+    transition-timing-function: ease-in; 
+
+}
+.box:hover{
+    background-color: palevioletred;
+     border-radius: 50%; 
+    transform: rotate(45deg);
+}
